@@ -31,11 +31,11 @@ header.smaller nav a {line-height: 75px; font-size: 17px;}
 .rowHeader {width: 1000px; margin-right: auto; margin-left: auto;padding-top: 130px;}
 .leftColumn {float: left; width: 39%; padding-left: 27px;}
 .leftColumn h2 {margin-top: 25%; font-size: 3em; line-height: 1.1em; color: #002D60; font-weight: 200;}
-.leftColumn a.button {background: #fff; border-radius: 3px; padding: 12px 20px;}
+/*.leftColumn a.button {background: #fff; border-radius: 3px; padding: 12px 20px;}
 .leftColumn a.button:hover {background: #e7e9ed;}
 .leftColumn a.button img {width: 150px; height: auto;}
 .rightColumn {text-align: center; float: right; width: 60%;}
-.rightColumn img {}
+.rightColumn img {}*/
 
 @media all and (max-width: 1000px) {
 .rowHeader {width: 100%;}
