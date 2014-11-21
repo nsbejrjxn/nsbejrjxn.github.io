@@ -18,7 +18,7 @@ header nav a.last {border-right: none;}
 header nav a.navLogin {border: 1px #abcfda solid; padding: 3px 15px; margin-left: 10px;
   border-radius: 3px; background: rgba(255, 255, 255, 0.2);}
 header nav a.navLogin:hover {background: #008ED6; color: #fff}
-header nav a:hover {color: #ffe80d;}
+/*header nav a:hover {color: #ffe80d;}*/
 header.smaller {height: 75px; background-color: rgba(0, 142, 214, 0.9);}
 header.smaller #logo img {width: 250px; height: 68px; margin-top: 0px; 
   line-height: 75px; font-size: 30px; }
@@ -30,7 +30,7 @@ header.smaller nav a {line-height: 75px; font-size: 17px;}
 
 .rowHeader {width: 1000px; margin-right: auto; margin-left: auto;padding-top: 130px;}
 .leftColumn {float: left; width: 39%; padding-left: 27px;}
-.leftColumn h2 {margin-top: 25%; font-size: 3em; line-height: 1.1em; color: #fff; font-weight: 200;}
+.leftColumn h2 {margin-top: 25%; font-size: 3em; line-height: 1.1em; color: #002D60; font-weight: 200;}
 .leftColumn a.button {background: #fff; border-radius: 3px; padding: 12px 20px;}
 .leftColumn a.button:hover {background: #e7e9ed;}
 .leftColumn a.button img {width: 150px; height: auto;}
