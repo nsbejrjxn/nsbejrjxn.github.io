@@ -39,22 +39,7 @@ header.smaller nav a {line-height: 75px; font-size: 17px;}
 .rightColumn {text-align: center; float: right; width: 60%;}
 .rightColumn img {}
 
-@media all and (max-width: 1000px) {
-.rowHeader {width: 100%;}
-.leftColumn {width: 38%; padding-left: 30px;}
-.leftColumn h2 {font-size: 2.2em; margin-top: 10%;}
-.leftColumn p {line-height: 1.4em;}
-.rightColumn {width: 60%;}
-.rightColumn img {width: 100%; max-width: 634px; height: auto;}
-}
 
-@media all and (max-width: 660px) {
-.rowHeader {width: 100%;}
-.leftColumn {width: 100%; text-align: center; display: block; float: none; padding-left: 10px; padding-right: 10px;}
-.leftColumn h2 {margin-top: 20px; font-size: 1.8em;}
-.rightColumn {width: 100%; display: block; float: none;}
-.rightColumn img {width: 100%; max-width: 634px; height: auto;}
-}
 
 
 
