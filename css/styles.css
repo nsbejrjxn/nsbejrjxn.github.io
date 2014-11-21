@@ -1,21 +1,27 @@
-header {width: 100%;
-		height: 100%;
-		position: fixed;
-		top: 0;
-		left: 0;
-		z-index: 999;
-		background-color: rgba(0,255,0,0.3);
-		border-bottom: 1px solid rgba(255,255,255, 0.2);}
-header #logo img { 	display: inline-block; 
-					height: 75px; width: 275px; 
-  					line-height: 150px; 
-  					float: left; 
-  					font-family: "Oswald", sans-serif; 
-  					font-size: 60px; 
-  					color: white; 
-  					font-weight: 400; 
-  					margin-top: 15px; 
-					h1,h2,h3 { font-family: Georgia, Garamond, serif; }
+header {width: 100%; height: 100px; /*overflow: hidden;*/ position: fixed; top: 0; 
+  left: 0; z-index: 999; background-color: rgba(255, 255, 255, 0.0); 
+  border-bottom: 1px solid rgba(255,255,255, 0.2); background: rgba(51,138,170,0.5);
+  -webkit-transition: height 0.3s; -moz-transition: height 0.3s; 
+  -ms-transition: height 0.3s; -o-transition: height 0.3s; transition: height 0.3s; }
+header #logo img { display: inline-block; height: 75px; width: 275px; 
+  line-height: 150px; float: left; font-family: "Oswald", sans-serif; 
+  font-size: 60px; color: white; font-weight: 400; margin-top: 15px; 
+  -webkit-transition: all 0.3s; -moz-transition: all 0.3s; 
+  -ms-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; }
+header nav {display: inline-block; float: right; }
+header nav a {line-height: 115px; padding: 0px 10px; color: #fff; 
+  font-weight: 400 ; font-size: 18px ; text-decoration: none; 
+  -webkit-transition: all 0.3s ; -moz-transition: all 0.3s ; -ms-transition: all 0.3s; 
+  -o-transition: all 0.3s ; transition: all 0.3s ; border-right: 1px dotted #abcfda; }
+header nav a.last {border-right: none;}
+header nav a.navLogin {border: 1px #abcfda solid; padding: 3px 15px; margin-left: 10px;
+  border-radius: 3px; background: rgba(255, 255, 255, 0.2);}
+header nav a.navLogin:hover {background: #0a4761; color: #fff}
+header nav a:hover {color: #9fdbfc;}
+header.smaller {height: 75px; background-color: rgba(31, 120, 160, 0.9);}
+header.smaller #logo img {width: 250px; height: 68px; margin-top: 0px; 
+  line-height: 75px; font-size: 30px; }
+header.smaller nav a {line-height: 75px; font-size: 17px;}
 
 
 
