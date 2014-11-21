@@ -15,11 +15,11 @@ header nav a {line-height: 115px; padding: 0px 10px; color: #fff;
   -webkit-transition: all 0.3s ; -moz-transition: all 0.3s ; -ms-transition: all 0.3s; 
   -o-transition: all 0.3s ; transition: all 0.3s ; border-right: 1px dotted #abcfda; }
 header nav a.last {border-right: none;}
-header nav a.navLogin {border: 1px #abcfda solid; padding: 3px 15px; margin-left: 10px;
+/*header nav a.navLogin {border: 1px #abcfda solid; padding: 3px 15px; margin-left: 10px;
   border-radius: 3px; background: rgba(255, 255, 255, 0.2);}
 header nav a.navLogin:hover {background: #0a4761; color: #fff}
-header nav a:hover {color: #9fdbfc;}
-header.smaller {height: 75px; background-color: rgba(31, 120, 160, 0.9);}
+header nav a:hover {color: #9fdbfc;}*/
+header.smaller {height: 75px; background-color: rgba(0, 142, 214, 0.9);}
 header.smaller #logo img {width: 250px; height: 68px; margin-top: 0px; 
   line-height: 75px; font-size: 30px; }
 header.smaller nav a {line-height: 75px; font-size: 17px;}
