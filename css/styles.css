@@ -25,7 +25,7 @@ header.smaller #logo img {width: 250px; height: 68px; margin-top: 0px;
 header.smaller nav a {line-height: 75px; font-size: 17px;}
 
 /*Home Page*/
-.homeRow1 {background: url(http://www.recipecloudapp.com/img/home-bkgd.jpg) no-repeat top center; 
+.homeRow1 {background-color: rgba(192,192,192,0.7); no-repeat top center; 
   background-size: cover; width: 100%; color: #fff; background-attachment: fixed;}
 
 .rowHeader {width: 1000px; margin-right: auto; margin-left: auto;padding-top: 130px;}
