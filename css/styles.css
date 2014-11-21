@@ -18,11 +18,7 @@ header nav a.last {border-right: none;}
 header nav a.navLogin {border: 1px #abcfda solid; padding: 3px 15px; margin-left: 10px;
   border-radius: 3px; background: rgba(255, 255, 255, 0.2);}
 header nav a.navLogin:hover {background: #008ED6; color: #fff}
-/*header nav a:hover {color: #ffe80d;}*/
-header.smaller {height: 75px; background-color: rgba(0, 142, 214, 0.9);}
-header.smaller #logo img {width: 250px; height: 68px; margin-top: 0px; 
-  line-height: 75px; font-size: 30px; }
-header.smaller nav a {line-height: 75px; font-size: 17px;}
+header nav a:hover {color: #ffe80d;}
 
 /*Home Page*/
 .homeRow1 {background-color: rgba(192,192,192,0.7); no-repeat top center; 
@@ -33,9 +29,6 @@ header.smaller nav a {line-height: 75px; font-size: 17px;}
 .leftColumn h2 {margin-top: 25%; font-size: 3em; line-height: 1.1em; color: #002D60; font-weight: 200;}
 .leftColumn h3 {color: #008ED6;}
 .leftColumn p {color: #002D60;}
-/*.leftColumn a.button {background: #fff; border-radius: 3px; padding: 12px 20px;}
-.leftColumn a.button:hover {background: #e7e9ed;}
-.leftColumn a.button img {width: 150px; height: auto;}*/
 .rightColumn {text-align: center; float: right; width: 60%;}
 .rightColumn img {}
 
@@ -45,20 +38,3 @@ header.smaller nav a {line-height: 75px; font-size: 17px;}
 
 
 
-/*h2,footer { color: #0000ff; 
-			background-color: #e0e0e0;
-			border: 2px solid #ccc; }
-
-nav { 	background-color: #0000ff;
-		letter-spacing: 2px;
-		padding: 8px;
-		 }
-
-body { 	font-family: Verdana, sans-serif;
-		font-size: 14px;  }
-
-p {	line-height: 1.5; 
-	text-align: justify; }
-
-footer { 	font-size: 70%;
-			text-align: center; }*/
