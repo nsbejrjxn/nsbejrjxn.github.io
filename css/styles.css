@@ -1,3 +1,4 @@
+/*Header*/
 header {width: 100%; height: 100px; /*overflow: hidden;*/ position: fixed; top: 0; 
   left: 0; z-index: 999; background-color: rgba(255, 255, 255, 0.0); 
   border-bottom: 1px solid rgba(255,255,255, 0.2); background: rgba(0,128,0,0.7);
@@ -22,6 +23,36 @@ header.smaller {height: 75px; background-color: rgba(31, 120, 160, 0.9);}
 header.smaller #logo img {width: 250px; height: 68px; margin-top: 0px; 
   line-height: 75px; font-size: 30px; }
 header.smaller nav a {line-height: 75px; font-size: 17px;}
+
+/*Home Page*/
+.homeRow1 {background: url(http://www.recipecloudapp.com/img/home-bkgd.jpg) no-repeat top center; 
+  background-size: cover; width: 100%; color: #fff; background-attachment: fixed;}
+
+.rowHeader {width: 1000px; margin-right: auto; margin-left: auto;padding-top: 130px;}
+.leftColumn {float: left; width: 39%; padding-left: 27px;}
+.leftColumn h2 {margin-top: 25%; font-size: 3em; line-height: 1.1em; color: #fff; font-weight: 200;}
+.leftColumn a.button {background: #fff; border-radius: 3px; padding: 12px 20px;}
+.leftColumn a.button:hover {background: #e7e9ed;}
+.leftColumn a.button img {width: 150px; height: auto;}
+.rightColumn {text-align: center; float: right; width: 60%;}
+.rightColumn img {}
+
+@media all and (max-width: 1000px) {
+.rowHeader {width: 100%;}
+.leftColumn {width: 38%; padding-left: 30px;}
+.leftColumn h2 {font-size: 2.2em; margin-top: 10%;}
+.leftColumn p {line-height: 1.4em;}
+.rightColumn {width: 60%;}
+.rightColumn img {width: 100%; max-width: 634px; height: auto;}
+}
+
+@media all and (max-width: 660px) {
+.rowHeader {width: 100%;}
+.leftColumn {width: 100%; text-align: center; display: block; float: none; padding-left: 10px; padding-right: 10px;}
+.leftColumn h2 {margin-top: 20px; font-size: 1.8em;}
+.rightColumn {width: 100%; display: block; float: none;}
+.rightColumn img {width: 100%; max-width: 634px; height: auto;}
+}
 
 
 
