@@ -25,7 +25,7 @@ header nav a:hover {color: #ffe80d;}
   background-size: cover; width: 100%; color: #fff; background-attachment: fixed;}
 
 .rowHeader {width: 1000px; margin-right: auto; margin-left: auto;padding-top: 130px;}
-.leftColumn {float: left; width: 39%; padding-left: 27px;}
+.leftColumn {float: left; width: 39%; padding-left: 15px;}
 .leftColumn h2 {margin-top: 25%; font-size: 3em; line-height: 1.1em; color: #002D60; font-weight: 200;}
 .leftColumn h3 {color: #008ED6;}
 .leftColumn p {color: #002D60;}
