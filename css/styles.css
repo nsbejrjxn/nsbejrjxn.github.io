@@ -24,7 +24,7 @@ header nav a:hover {color: #ffe80d;}
 .homeRow1 {background-color: rgba(192,192,192,0.7); no-repeat top center; 
   background-size: cover; width: 100%; color: #fff; background-attachment: fixed;}
 
-.rowHeader {width: 1000px; margin-right: auto; margin-left: auto;padding-top: 130px;}
+.rowHeader {width: 500px; margin-right: auto; margin-left: auto;padding-top: 130px;}
 .leftColumn {float: left; width: 39%; padding-left: 5px;}
 .leftColumn h2 {margin-top: 25%; font-size: 3em; line-height: 1.1em; color: #002D60; font-weight: 200;}
 .leftColumn h3 {color: #008ED6;}
