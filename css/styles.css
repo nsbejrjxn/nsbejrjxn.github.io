@@ -30,7 +30,7 @@ header nav a:hover {color: #ffe80d;}
 .leftColumn h3 {color: #008ED6;}
 .leftColumn p {color: #002D60;}
 .rightColumn {text-align: center; float: right; width: 60%;}
-.rightColumn img {}
+.rightColumn img {width: 100; max-width: 634; height: auto;}
 
 
 
